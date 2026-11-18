@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Network Data Labs is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.networkdatalabs.com
+Network Data Labs provides an honest IP intelligence API offering geolocation, ASN lookup, VPN, Tor, hosting and fraud detection signals. The service delivers accurate location data with transparent accuracy radius and confidence levels, alongside network details such as autonomous system information. Free tier includes 1,000 requests per month for personal and non‑commercial use, with paid plans adding bulk lookups, higher rate limits, and commercial licensing. Documentation is bilingual (English and Spanish) and includes clear pricing, quickstart guides, and an interactive dashboard. The company emphasizes privacy, no overage charges, and transparent terms.
+
+**Areas:** Company · IP Geolocation · Network Intelligence · API · Data
+
+## Network Data Labs on APIs.io
+
+Everything profiled for Network Data Labs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/networkdatalabs-com/](https://apis.io/providers/networkdatalabs-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Network Data Labs Account API](https://apis.io/apis/networkdatalabs-com/networkdatalabs-com-account-api/) — Caller identity and quota
+- [Network Data Labs ASN API](https://apis.io/apis/networkdatalabs-com/networkdatalabs-com-asn-api/) — Autonomous System details
+- [Network Data Labs Bulk API](https://apis.io/apis/networkdatalabs-com/networkdatalabs-com-bulk-api/) — Batch lookups (up to 100 IPs in v0)
+- [Network Data Labs IP Lookup API](https://apis.io/apis/networkdatalabs-com/networkdatalabs-com-ip-lookup-api/) — Geolocation, network, and traits for a single IP
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Network Data Labs Agentic Access](https://apis.io/agentic-access/networkdatalabs-com/networkdatalabs-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AsnDetail](https://apis.io/schemas/networkdatalabs-com/networkdatalabs-com-asn-detail/)
+- [BulkRequest](https://apis.io/schemas/networkdatalabs-com/networkdatalabs-com-bulk-request/)
+- [BulkResponse](https://apis.io/schemas/networkdatalabs-com/networkdatalabs-com-bulk-response/)
+- [Health](https://apis.io/schemas/networkdatalabs-com/networkdatalabs-com-health/)
+- [IpLookup](https://apis.io/schemas/networkdatalabs-com/networkdatalabs-com-ip-lookup/)
+- [Me](https://apis.io/schemas/networkdatalabs-com/networkdatalabs-com-me/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Networkdatalabs Com Context](https://apis.io/jsonld/networkdatalabs-com/networkdatalabs-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Network Data Labs API Rules](https://apis.io/rules/networkdatalabs-com/networkdatalabs-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Network Data Labs Authentication](https://apis.io/security/networkdatalabs-com/networkdatalabs-com-authentication/)
+- [Network Data Labs Domain Security](https://apis.io/security/networkdatalabs-com/networkdatalabs-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Network Data Labs Plans Pricing](https://apis.io/plans/networkdatalabs-com/networkdatalabs-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.networkdatalabs.com)
+- [Documentation](https://www.networkdatalabs.com/docs)
+- [Pricing](https://www.networkdatalabs.com/pricing)
+- [Sign up](https://www.networkdatalabs.com/dashboard/?mode=signup)
+- [Support](https://www.networkdatalabs.com/contact)
+- [Terms of service](https://www.networkdatalabs.com/terms)
+- [Privacy policy](https://www.networkdatalabs.com/privacy)
+- [GitHub](https://github.com/networkdatalabs)
+
+## API Evangelist rating
+
+**Kin Score 53.6** — developing · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 59.1 |
+
+**Agent readiness 37.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/networkdatalabs-com/](https://apis.io/providers/networkdatalabs-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Network Data Labs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/networkdatalabs-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
